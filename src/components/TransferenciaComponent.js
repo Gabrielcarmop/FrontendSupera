@@ -3,7 +3,6 @@ import TransferecenciaService from "../services/TransferecenciaService";
 import "./Conta.css"
 import bootstrap from "bootstrap";
 
-var somavalor;
 class TransferenciaComponent extends React.Component{
     
     constructor(props){
@@ -64,7 +63,6 @@ class TransferenciaComponent extends React.Component{
                                 <td>R$ {transferencia.valor}</td>
                                 <td>{transferencia.tipo}</td>
                                 <td>{transferencia.nome_operador_transacao}</td>
-                                somavalor= {transferencia.valor} + somavalor;
                              </tr>
                            
                         )
