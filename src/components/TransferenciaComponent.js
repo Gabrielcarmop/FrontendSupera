@@ -73,7 +73,6 @@ class TransferenciaComponent extends React.Component{
            </div>
         
         )    
-     console.log("%f", somavalor);      
     }
 
 }
